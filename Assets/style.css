@@ -157,3 +157,44 @@ color: #333;
   font-size: 20px;
   margin-bottom: 15px;
 }
+.inflation
+{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/5;
+
+    margin-left: 195px;
+    margin-right: 195px;
+}
+.inflation-header
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+
+}
+.subscribe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 32px;
+    
+}
+.subscribe p{
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.subscribe a
+{
+    text-decoration: none;
+}
+.border
+{
+    width: 72px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 18px;
+}
