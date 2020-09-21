@@ -26,6 +26,9 @@ a {
   color: black;
 }
 
+b {
+font-weight: bold;
+}
 /* Header */
 .head {
   height: 43px;
@@ -88,7 +91,7 @@ main
 {
     display: grid;
     grid-template-columns: 370px 610px 90px 212px 80px;
-    grid-template-rows: auto 315px auto 315px auto 315px auto 315px;
+    /* grid-template-rows: auto 315px auto 315px auto 315px auto 315px; */
 }
 article
 {
@@ -164,9 +167,14 @@ color: #333;
     flex-direction: column;
     grid-column: 1/5;
 
-    margin-left: 195px;
-    margin-right: 195px;
+    margin-left: 190px;
+    margin-right: auto;
 }
+/* .inflation p:first-child{
+  font-family: Georgia;
+  font-size: 14px;
+  color: #666666;
+} */
 .inflation-header
 {
     font-size: 1.25rem;
@@ -175,6 +183,66 @@ color: #333;
     font-style: normal;
 
 }
+.ele-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ele {
+  width: 260px;
+  height: 265px;
+  margin-right: 10px;
+}
+.ele p {
+  font-family: arial;
+  font-size: 12px;
+}
+.img-cont {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.ele img {
+  display: block;
+  position: absolute;
+  width: 1045px;
+}
+#img1{
+  top: 0;
+  left: 0;
+}
+#img2{
+  top: 0;
+  left: -270px;
+}
+#img3 {
+  top: 0;
+  left: -520px;
+}
+#img4 {
+  top: 0;
+  left: -800px;
+}
+#img5{
+  top: -320px;
+  left: 10px;
+}
+
+#img6{
+  top: -320px;
+  left: -270px;
+}
+
+#img7{
+  top: -320px;
+  left: -520px;
+}
+
+#img8{
+  top: -320px;
+  left: -800px;
+}
 .subscribe
 {
     display: flex;
@@ -182,12 +250,12 @@ color: #333;
     justify-content: center;
     align-items: center;
     margin: 32px 32px;
-    
+
 }
 .subscribe p{
     font-size: 15px;
     font-weight: bold;
-   
+
 }
 .subscribe a
 {
