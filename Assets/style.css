@@ -88,6 +88,7 @@ main
 {
     display: grid;
     grid-template-columns: 370px 610px 90px 212px 80px;
+    grid-template-rows: auto 315px auto 315px auto 315px auto 315px;
 }
 article
 {
