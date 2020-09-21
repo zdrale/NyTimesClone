@@ -21,6 +21,10 @@ button {
   font-weight: bold;
   font-size: 15px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 /* Header */
 .head {
@@ -50,7 +54,7 @@ right-float {
   float: right;
 }
 
-.banner 
+.banner
 {
     display: flex;
     flex-direction: column;
@@ -72,7 +76,7 @@ right-float {
  font-weight: 700;
  font-style: italic;
  font-size: 1.9375rem;
- 
+
 }
 figcaption
 {
@@ -83,7 +87,7 @@ figcaption
 main
 {
     display: grid;
-    grid-template-columns: 1fr 610px 212px ;
+    grid-template-columns: 370px 610px 90px 212px 80px;
 }
 article
 {
@@ -91,19 +95,65 @@ grid-column: 2;
 }
 .about
 {
-text-decoration: none;
+ height: 70px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-bottom: 25px;
 }
-
+.author-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .author
 {
  font-weight: bold;
- 
+ text-decoration: underline;
+
 }
 .about a
 {
 color: #333;
 }
+.social {
+  display: flex;
+
+}
+.social a {
+  margin-right: 10px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .date
 {
     font-size: 0.8125rem;
+}
+
+.content p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.vid {
+  margin: 60px 0;
+}
+
+.content a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.content strong {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
