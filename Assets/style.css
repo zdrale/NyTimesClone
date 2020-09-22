@@ -78,10 +78,10 @@ figcaption {
 }
 /* Header */
 .head {
-  
+
   height: 43px;
   padding: 0 10px;
- 
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -356,6 +356,78 @@ aside {
 .social-end
 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+}
 
+.recommendation {
+  padding-left: 75px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 800px 315px;
+  grid-gap: 25px;
+}
+
+.more,
+.editor-pick {
+  grid-column: 1;
+  border-top: solid black 1px;
+  padding-top: 15px;
+}
+
+.most-popular {
+  grid-column: 2;
+  border-top: solid black 1px;
+  padding-top: 15px;
+}
+
+.more h2,
+.editor-pick h2,
+.most-popular h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tile-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.tile {
+  margin-right: 15px;
+  width: 250px;
+  height: 280px;
+}
+
+.tile img {
+  width: 250px;
+  height: 168px;
+  margin-bottom: 15px;
+}
+
+.tile h3 {
+  font-size: 18px;
+  color: #121212;
+  width: 221px;
+}
+
+.tile .date {
+  font-size: 12px;
+  color: #999;
+}
+
+.stack-container {
+  margin: 20px 0;
+}
+
+.stack {
+  padding: 15px 0;
+  border-top: solid rgb(226, 226, 226) 1px;
+}
+
+.stack-container p {
+  font-size: 18px;
+  color: #121212;
+  font-weight: 500;
 }
