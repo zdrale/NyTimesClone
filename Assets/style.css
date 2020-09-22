@@ -38,7 +38,10 @@ b {
   font-size: 9px;
   padding-top: 10px;
 }
-
+.adv-head
+{
+  padding-top: 53px;
+}
 .adv1 {
   height: 160px;
 }
@@ -64,19 +67,28 @@ figcaption {
   margin: 40px 0;
 }
 
-.small-desc {
+.small-desc{
   color: #888;
   font-size: 12px;
 }
-
+#article-end
+{
+  color: #888;
+  font-size: 12px;
+}
 /* Header */
 .head {
+  
   height: 43px;
   padding: 0 10px;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px #e2e2e2;
+  width: 100%;
+  position: fixed;
+  background-color: white;
 }
 
 i {
@@ -336,4 +348,14 @@ aside {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+#end-button
+{
+  width: 330px;
+}
+.social-end
+{
+  display: flex;
+  justify-content:space-between;
+
 }
