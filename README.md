@@ -26,9 +26,9 @@
 
 👤 **Nikola Zdrale**
 
-- GitHub: [](https://github.com/wintan1418)
-- Twitter: [](https://twitter.com/oluwadarejuwon)
-- LinkedIn: [](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
+- GitHub: [@zdrale](https://github.com/zdrale)
+- Twitter: [@zdralenikola](https://twitter.com/zdralenikola)
+- LinkedIn: [@nikola-zdrale](https://www.linkedin.com/in/nikola-zdrale/)
 
 ## 🤝 Contributing
 
