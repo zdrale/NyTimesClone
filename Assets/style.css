@@ -1,3 +1,32 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+li {
+  list-style: none;
+}
+
 /* Global Setting */
 button {
   font-family: helvetica, sans-serif;
@@ -127,7 +156,7 @@ i {
   width: 100%;
 }
 
-.banner h1 {
+.banner h2 {
   font-weight: 700;
   font-style: italic;
   font-size: 1.9375rem;
@@ -194,6 +223,11 @@ article {
 
 .vid {
   margin: 60px 0;
+}
+
+.vid iframe {
+  width: 600px;
+  height: 319px;
 }
 
 .content a {

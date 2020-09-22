@@ -2,8 +2,8 @@
   <html lang="en">
 
   <head>
-    <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/style.css">
     <link rel="stylesheet" href="Assets/reset.css">
@@ -12,7 +12,7 @@
 
   <body>
     <header>
-      <section class="head">
+      <div class="head">
         <div class="navigation">
           <a href="#"><i class="fa fa-bars"></i></a>
           <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
@@ -20,10 +20,10 @@
         </div>
         <img class="main-logo" src="./Assets/Images/main-logo.png" alt="">
         <div class="buttons">
-          <button>SUBSCRIBE NOW</button>
-          <button>LOG IN</button>
+          <button type="button">SUBSCRIBE NOW</button>
+          <button type="button">LOG IN</button>
         </div>
-      </section>
+      </div>
     </header>
 
     <div class="adv1 adv-head">
@@ -31,7 +31,7 @@
     </div>
 
     <section class="banner">
-      <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+      <h2>Space Ripples Reveal Big Bang’s Smoking Gun</h2>
       <figure>
         <img src="./Assets/Images/18cosmos-jumbo.jpg" alt="">
         <figcaption>
@@ -44,9 +44,12 @@
 
     <main>
       <article>
+        <h2></h2>
         <div class="about">
           <div class="author-detail">
-            <p class="author">By <a href="http://www.nytimes.com/by/dennis-overbye">Dennis Overbye</a></p>
+
+            <h2 class="author">By <a href="http://www.nytimes.com/by/dennis-overbye">Dennis Overbye</a></h2>
+
             <p class="date">March 17, 2014</p>
           </div>
           <div class="social">
@@ -134,7 +137,7 @@
 
           <div class="ele">
             <div class="img-cont">
-              <img id="img1" src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png">
+              <img id="img1" src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png" alt="the universe">
             </div>
             <p><b>THE UNIVERSE</b> is just under 14 billion years old.
               From our position in the Milky Way galaxy,
@@ -231,7 +234,8 @@
         <p>Calling from Bonaire, the Dutch Caribbean island, Dr. Linde said he was still hyperventilating. “Having news like this is the best way of spoiling a vacation,” he said.</p>
 
         <figure class="vid">
-          <iframe width="600" height="319" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
           <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough
             <span class="small-desc">Video by <br> StanfordUniversity</span>
           </figcaption>
@@ -344,7 +348,7 @@
         <p id="article-end">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="http://www.nytreprints.com/">Order
             Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper"> Today’s Paper</a> | <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY"> Subscribe </a></p>
         <div class="social-end">
-          <button id="end-button">READ 615 COMMENTS</button>
+          <button type="button" id="end-button">READ 615 COMMENTS</button>
           <div class="social">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -476,9 +480,7 @@
       <div class="list1">
         <h3>NEWS</h3>
         <ul>
-          <a href="https://www.nytimes.com/">
-            <li>Home page</li>
-          </a>
+          <li><a href="https://www.nytimes.com/">Home page</a></li>
           <li>World</li>
           <li>U.S.</li>
           <li>Politics</li>
