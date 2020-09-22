@@ -49,6 +49,26 @@ b {
   margin: 10px 0;
 }
 
+figcaption {
+  color: #666;
+  width: auto;
+  font-size: 0.875rem;
+}
+
+.fig-img img {
+  width: 600px;
+  height: 400px;
+}
+
+.fig-img {
+  margin: 40px 0;
+}
+
+.small-desc {
+  color: #888;
+  font-size: 12px;
+}
+
 /* Header */
 .head {
   height: 43px;
@@ -97,12 +117,6 @@ i {
   font-weight: 700;
   font-style: italic;
   font-size: 1.9375rem;
-}
-
-figcaption {
-  color: #666;
-  width: auto;
-  font-size: 0.875rem;
 }
 
 main {
