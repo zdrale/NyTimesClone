@@ -88,6 +88,7 @@ figcaption {
   border-bottom: solid 1px #e2e2e2;
   width: 100%;
   position: fixed;
+  z-index: 5;
   background-color: white;
 }
 
@@ -109,6 +110,7 @@ i {
   float: right;
 }
 
+/* Banner */
 .banner {
   display: flex;
   flex-direction: column;
@@ -131,13 +133,10 @@ i {
   font-size: 1.9375rem;
 }
 
+/* Main Content */
 main {
   display: grid;
   grid-template-columns: 370px 610px 90px 212px 80px;
-
-  /* grid-template-columns: 27.2% 44.8% 6.6% 15.5% 5.9%; */
-
-  /* grid-template-rows: auto 315px auto 315px auto 315px auto 315px; */
 }
 
 article {
@@ -209,6 +208,7 @@ article {
   margin-bottom: 15px;
 }
 
+/* Inflation Section */
 .inflation {
   display: flex;
   flex-direction: column;
@@ -216,12 +216,6 @@ article {
   margin-left: 190px;
   margin-right: auto;
 }
-
-/* .inflation p:first-child{
-  font-family: Georgia;
-  font-size: 14px;
-  color: #666666;
-} */
 
 .inflation-header {
   font-size: 1.25rem;
@@ -362,6 +356,7 @@ aside {
   justify-content: space-between;
 }
 
+/* Recommedation Section */
 .recommendation {
   padding-left: 75px;
   margin-top: 50px;
@@ -439,6 +434,7 @@ aside {
   font-weight: 500;
 }
 
+/* Bottom Navigation */
 .navigation-bottom {
   width: 90%;
   margin: 15px auto;
@@ -468,13 +464,6 @@ aside {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
-
-/* .border2 {
-  height: 3px;
-  background-color: #e2e2e2;
-  width: 1026px;
-  margin-left: 73px;
-} */
 
 .list1 {
   display: inline-table;
@@ -517,6 +506,8 @@ aside {
   font-size: 11px;
   font-weight: 500;
 }
+
+/* Footer */
 
 footer ul {
   display: flex;
