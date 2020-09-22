@@ -235,7 +235,8 @@ article {
   text-decoration: underline;
 }
 
-.content strong {
+.content strong,
+.content .sub-heading {
   display: block;
   font-weight: 700;
   font-size: 20px;
