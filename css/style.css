@@ -59,8 +59,8 @@ b {
   font-weight: bold;
 }
 
-.adv1,
-.adv2 {
+.advertisement1,
+.advertisement2 {
   background: #f7f7f7;
   display: flex;
   justify-content: center;
@@ -68,15 +68,15 @@ b {
   padding-top: 10px;
 }
 
-.adv-head {
+.advertisement-head {
   padding-top: 53px;
 }
 
-.adv1 {
+.advertisement1 {
   height: 160px;
 }
 
-.adv2 {
+.advertisement2 {
   height: 310px;
   grid-column: 1/-1;
   margin: 10px 0;
@@ -116,6 +116,7 @@ figcaption {
   align-items: center;
   border-bottom: solid 1px #e2e2e2;
   width: 100%;
+  margin: 0 auto;
   position: fixed;
   z-index: 5;
   background-color: white;
@@ -165,11 +166,11 @@ i {
 /* Main Content */
 main {
   display: grid;
-  grid-template-columns: 370px 610px 90px 212px 80px;
+  grid-template-columns: 1fr 370px 610px 90px 212px 80px 1fr;
 }
 
 article {
-  grid-column: 2;
+  grid-column: 3;
 }
 
 .about {
@@ -246,10 +247,10 @@ article {
 /* Inflation Section */
 .inflation {
   display: flex;
+  width: 1085px;
   flex-direction: column;
-  grid-column: 1/5;
-  margin-left: 190px;
-  margin-right: auto;
+  grid-column: 2/6;
+  margin: 0 auto;
 }
 
 .inflation-header {
@@ -357,7 +358,7 @@ article {
 }
 
 aside {
-  grid-column: 4;
+  grid-column: 5;
   display: flex;
   flex-direction: column;
 }
@@ -396,13 +397,17 @@ aside {
   padding-left: 75px;
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 800px 315px;
+  grid-template-columns: 1fr 800px 315px 1fr;
   grid-gap: 25px;
+}
+
+.recommendation .advertisement2 {
+  margin-left: -100px;
 }
 
 .more,
 .editor-pick {
-  grid-column: 1;
+  grid-column: 2;
   border-top: solid black 1px;
   padding-top: 15px;
 }
@@ -412,7 +417,7 @@ aside {
 }
 
 .most-popular {
-  grid-column: 2;
+  grid-column: 3;
   border-top: solid black 1px;
   padding-top: 15px;
 }
@@ -470,24 +475,34 @@ aside {
 }
 
 /* Bottom Navigation */
+.bottom-nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 1340px 1fr;
+}
+
 .navigation-bottom {
-  width: 90%;
-  margin: 15px auto;
+  grid-column: 2 / 3;
   padding-bottom: 18px;
   border-bottom: 1px solid #e2e2e2;
   border-top: 3px solid #e2e2e2;
 }
 
 .clear::after {
-  display: block;
+  grid-column: 2;
   content: "";
+  display: block;
   clear: both;
 }
 
 .navigation-bottom img {
-  display: flex;
   margin-top: 10px;
   margin-left: 73px;
+}
+
+.bottom-nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-bottom #home-page {
@@ -543,8 +558,13 @@ aside {
 }
 
 /* Footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1340px 1fr;
+}
 
 footer ul {
+  grid-column: 2;
   display: flex;
   justify-content: center;
 }
