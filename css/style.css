@@ -107,6 +107,10 @@ figcaption {
   font-size: 12px;
 }
 
+.mid-content {
+  grid-column: 3;
+}
+
 /* Header */
 .head {
   height: 43px;
@@ -516,18 +520,19 @@ aside {
 }
 
 .list1 {
-  display: inline-table;
+  display: block;
   float: left;
   margin-left: 73px;
   margin-top: 50px;
+  height: 100%;
 }
 
 .list1 h3 {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .list1 li {
@@ -535,6 +540,24 @@ aside {
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 14px;
+}
+
+.list1 li svg {
+  width: 13px;
+  height: 13px;
+}
+
+.news-subscribe-section {
+  display: flex;
+}
+
+.subscribe-option {
+  overflow: hidden;
+}
+
+.subscribe-option li {
+  font-size: 17px;
+  font-weight: bold;
 }
 
 #list-border {
