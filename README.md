@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Positioning and Floating Elements
+# NYTimes Clone
 
 > article page that matches the appearance of NYtimes article
 
